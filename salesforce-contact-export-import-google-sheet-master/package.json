@@ -1,0 +1,23 @@
+{
+  "name": "salesforce_contact_export_google_sheet",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "email": "rajukhunt15@gmail.com",
+    "name": "Raju Khunt",
+    "url": "https://github.com/rkrajukhunt/salesforce-contact-export-import-google-sheet.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.2",
+    "google-spreadsheet": "^3.1.15",
+    "jsforce": "^1.10.1",
+    "mongoose": "^4.13.6"
+  }
+}
